@@ -1,0 +1,40 @@
+{
+  "name": "xxmi-map",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.umd.min.js",
+  "module": "lib/index.min.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxmi/xxmi-map.git"
+  },
+  "author": "xxmi.cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxmi/xxmi-map/issues"
+  },
+  "homepage": "https://github.com/xxmi/xxmi-map#readme",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "terser": "^3.17.0",
+    "zlib": "^1.0.5"
+  }
+}
